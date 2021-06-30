@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Vogue/static/css/main.0e396317.chunk.css",
-    "main.js": "/Vogue/static/js/main.75c283a2.chunk.js",
-    "main.js.map": "/Vogue/static/js/main.75c283a2.chunk.js.map",
+    "main.js": "/Vogue/static/js/main.65e9db1d.chunk.js",
+    "main.js.map": "/Vogue/static/js/main.65e9db1d.chunk.js.map",
     "runtime-main.js": "/Vogue/static/js/runtime-main.a396df41.js",
     "runtime-main.js.map": "/Vogue/static/js/runtime-main.a396df41.js.map",
     "static/js/2.50a94e82.chunk.js": "/Vogue/static/js/2.50a94e82.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.a396df41.js",
     "static/js/2.50a94e82.chunk.js",
     "static/css/main.0e396317.chunk.css",
-    "static/js/main.75c283a2.chunk.js"
+    "static/js/main.65e9db1d.chunk.js"
   ]
 }
