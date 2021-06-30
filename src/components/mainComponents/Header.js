@@ -4,12 +4,12 @@ import HamburgerButton from '../subComponents/HamburgerButton'
 import PageNumber from '../subComponents/PageNumber'
 import MobileMenu from './MobileMenu'
 
+
 function Header() {
     const [isOpen, setIsOpen] = useState(false);
 
     const toggleMenu = () => {
         isOpen ? setIsOpen(false) : setIsOpen(true)
-       
     }
 
     return (

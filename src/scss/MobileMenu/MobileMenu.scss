@@ -15,10 +15,10 @@
         transition: clip-path 500ms ease-in-out;
 
         display: flex;
-        align-items: center;
+        align-items: flex-end;
 
         > .header_nav_links{
-           
+     
             > ul {
                 margin: 0px;
                 padding: 25px;
@@ -42,7 +42,7 @@
                         } 
                     }
                     &:not(:last-child) {
-                        margin-bottom: 4.3125rem;
+                        margin-bottom: 2.3125rem;
                     }
 
                     &:nth-child(2),
