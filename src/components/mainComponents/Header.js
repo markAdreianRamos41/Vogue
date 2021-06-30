@@ -9,13 +9,9 @@ function Header() {
     const [isOpen, setIsOpen] = useState(false);
 
     const preventScroll = () =>  {
-        if(isOpen)  {
-            window.scrollTo(0, 0)
-            window.onscroll = () => {
-                window.scrollTo(0, 0)
-            }
-        }
-        else {window.onscroll = () => {}}
+        if(isOpen)  document.body.style.overflow = "hidden"
+        
+        else document.body.style = ""
     }
     const toggleMenu = () => {
         isOpen ? setIsOpen(false) : setIsOpen(true)
