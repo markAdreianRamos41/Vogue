@@ -1,0 +1,12 @@
+.hero_section {
+    width: 14.0625rem;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@import './tagline';
+@import './button';
+@import './underline';

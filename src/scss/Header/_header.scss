@@ -1,0 +1,25 @@
+@import './logo';
+@import './hamburgerButton';
+@import './pageNumber';
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+
+    height: 0px;
+    width: 78px;
+        
+    .header_left_side_mobile{
+        transform-origin: bottom left;
+        transform: rotate(90deg);
+
+        width: calc(48rem - 149px);
+
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+}
