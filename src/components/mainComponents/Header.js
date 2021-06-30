@@ -8,9 +8,23 @@ import MobileMenu from './MobileMenu'
 function Header() {
     const [isOpen, setIsOpen] = useState(false);
 
+    const preventScroll = () =>  {
+        if(isOpen)  {
+            window.scrollTo(0, 0)
+            window.onscroll = () => {
+                window.scrollTo(0, 0)
+            }
+        }
+        else {window.onscroll = () => {}}
+    }
     const toggleMenu = () => {
         isOpen ? setIsOpen(false) : setIsOpen(true)
+        
     }
+    preventScroll()
+        
+
+
 
     return (
         <div className="header">

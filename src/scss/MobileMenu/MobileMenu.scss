@@ -13,12 +13,13 @@
         height: inherit;
         clip-path: circle(0% at 10% 5%);
         transition: clip-path 500ms ease-in-out;
-
+        
         display: flex;
-        align-items: center;
+        align-items: flex-end;
+        
 
         > .header_nav_links{
-     
+            
             > ul {
                 margin: 0px;
                 padding: 25px;
