@@ -1,0 +1,22 @@
+
+.hero_section{
+    height: calc(100% - 52px);
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    .underline{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+
+        width: 150px;
+        height: 1px;
+        background-color: $fontColor;
+    }
+}
+
+@import './socialMediaLinks';
+@import './tagline';

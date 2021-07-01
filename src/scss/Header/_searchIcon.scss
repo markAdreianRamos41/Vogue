@@ -1,6 +1,15 @@
 .search_icon{
-    > img {
+    > svg {
+
         height: 2.52525252525vw;
         width: 2.52525252525vw;
+        transition: 200ms ease-in-out;
+        transform-origin: center center;
+        cursor: pointer;
+
+        &:hover{
+           transform: scale(150%);
+
+        }
     }
 }

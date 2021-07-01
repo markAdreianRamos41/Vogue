@@ -16,7 +16,7 @@ function MobileMenu({isMenuOpen}) {
     }
 
     return (
-        <div className="clip_path_container" style={isMenuOpen ? clipPathOpen : null}>
+        <div className="clip_path_container hide-for-desktop" style={isMenuOpen ? clipPathOpen : null}>
             <Scrollbars style={scrollStyle}>
                 <div className="mobile_nav_inner_container">
                     <NavLinks screen="mobile"/> 

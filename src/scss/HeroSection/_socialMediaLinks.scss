@@ -1,0 +1,29 @@
+.hero_section{
+    .social_media_links{
+        width: 15px;
+        > div{
+            cursor: pointer;
+         
+
+            &:not(:last-child){
+                margin-bottom: 20px;
+            }
+
+            &:hover{
+                > a {
+                    > svg{
+                        transform: scale(150%);
+                    }      
+                }
+            }
+            > a {
+                > svg{
+                    transition: 200ms ease-in-out;
+                    width: 15px;
+                    height: 15px;
+                }  
+            }
+             
+        }
+    }
+}

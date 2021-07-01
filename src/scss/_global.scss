@@ -33,6 +33,32 @@ h1, h2, h3, h4, h5, h6, p{
     margin: 0;
 }
 
+.button{
+
+    display: flex;
+    align-items: center;
+    align-items: center;
+    
+    height: 36.2667px;
+    width: 114.167px;
+       
+    > a {
+        padding: 1.2625em 2.5725em;
+        
+
+        font-family: $familyUbuntu;
+        font-size: 0.625rem;
+        font-weight: $ubuntuBold;
+        color: $lightGreen;
+
+        background-color: $fontColor;
+        border-radius: 4em;
+        border: none;
+        
+      
+    }
+}
+
 .hide-for-mobile{
     @include hide-for-mobile{
         display: none;

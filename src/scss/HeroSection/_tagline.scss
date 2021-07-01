@@ -1,0 +1,12 @@
+.tagline_container{
+    margin-top: 3.625em;
+
+    > h1{
+        font-family: $familyUbuntu;
+        font-weight: $ubuntuBold;
+        font-size: 3rem;
+
+        line-height: 124.7%;
+        margin-bottom: 0.9375em;
+    }
+}

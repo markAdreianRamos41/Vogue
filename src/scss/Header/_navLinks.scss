@@ -5,6 +5,24 @@
                 margin-right: 5.05050505050vw;
             }
 
+            ::after{
+                content: "";
+                display: block;
+                height: 2px;
+                width: 0%;
+                position: relative;
+                top: 10px;
+                transition: width 200ms ease-in-out;
+                background-color: $fontColor;
+            }
+            
+            &:hover{
+                ::after{
+                    width: 100%;
+                }
+            }
+           
+
             > a{
                 font-family: $familyOverpass;
                 font-size: 0.9375rem;
