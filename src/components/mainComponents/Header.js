@@ -13,8 +13,6 @@ function Header() {
         isMenuOpen ? setIsMenuOpen(false) : setIsMenuOpen(true)
     }
 
-    console.log(setIsMenuOpen)
-
     return (
         <div className="header">
            <HamburgerButton handleClicked={handleHamburgerMenuClicked} isMenuOpen={isMenuOpen}/>
