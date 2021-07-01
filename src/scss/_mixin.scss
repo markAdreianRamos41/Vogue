@@ -1,0 +1,11 @@
+@mixin hide-for-mobile {
+    @media (max-width: 849px) {
+        @content;
+    }
+}
+
+@mixin hide-for-desktop {
+    @media (min-width: 850px) {
+        @content;
+    }
+}

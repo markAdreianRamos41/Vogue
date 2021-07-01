@@ -1,13 +1,13 @@
 import React from 'react'
 
-function HamburgerButton({handleClick, isOpen}) {
-
-
+function HamburgerButton({handleClicked, isMenuOpen}) {
     return (
-        <div className="hamburger_button" onClick={handleClick}>
-            <span style={isOpen ? {width: "30px", transform: "translateX(-10px)", backgroundColor: "#ffffff"}: null}></span>
-            <span style ={isOpen ? { backgroundColor: "#ffffff"} : null}></span>
-            <span style={isOpen ? {width: "30px", transform: "translate(10px, -1px)", backgroundColor: "#ffffff"}: null}></span>
+        <div className="hide-for-desktop" onClick={handleClicked}>
+           <div className="hamburger_button">
+                <span style={isMenuOpen ? {transform: "translateX(10px)", backgroundColor: "#ffffff"} : null}></span>
+                <span style={isMenuOpen ? {backgroundColor: "#ffffff"} : null}></span>
+                <span style={isMenuOpen ? {transform: "translateX(-10px)", backgroundColor: "#ffffff"} : null}></span>
+           </div>
         </div>
     )
 }

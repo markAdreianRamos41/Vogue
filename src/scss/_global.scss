@@ -14,8 +14,34 @@ body {
     font-family: $familyUbuntu;
     color: $fontColor;
 }
+ul{
+    padding: 0px;
+    margin: 0px;
+
+    display: flex;
+    align-items: center;
+}
+li {
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
 
 h1, h2, h3, h4, h5, h6, p{
     margin: 0;
 }
 
+.hide-for-mobile{
+    @include hide-for-mobile{
+        display: none;
+    }
+}
+
+.hide-for-desktop{
+    @include hide-for-desktop{
+        display: none;
+        
+    }
+}

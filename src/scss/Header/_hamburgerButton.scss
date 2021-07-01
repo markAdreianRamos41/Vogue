@@ -1,37 +1,44 @@
-.hamburger_button {
+.hamburger_button{
     position: absolute;
+    top: 2.5em;
+    left: 1.875em;
     z-index: 10;
-    width: 2.5em;
-    height: fit-content;
 
+    width: 2.5em;
+    height: 1.58125em;
+    cursor: pointer;
+   
+
+    
     display: flex;
-    justify-content: center;
     flex-direction: column;
 
-    cursor: pointer;
-
     > span {
-        height: 4px;
-        width: 40px;
-        border-radius: 10px;
         background-color: $fontColor;
-        transition: 500ms ease-in-out;
-        
-        
+        border-radius: 1em;
+        height: 0.260625em;
+        width: 2.5em;
+
+        transition: all 500ms ease-in-out;
+
         &:not(:last-child){
-            margin-bottom: 6.4px;
-           
+            margin-bottom: 0.4em;
         }
 
-        &:first-child {
-            width: 30px;
-            align-self: flex-end;
-        }
-
-        &:last-child {
-            width: 30px;
-            transform: translateY(-1px);
+        &:first-child{
+            width: 1.875em;
             align-self: flex-start;
         }
+
+        &:nth-child(2){
+            height: 0.260625em;
+        }
+
+        &:last-child{
+            width: 1.875em;
+            align-self: flex-end;
+        }
     }
+
+
 }

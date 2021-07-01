@@ -1,8 +1,6 @@
-.preventScroll{
-    overflow: hidden;
-}
-
+@import './mixin';
 @import './variables';
 @import './global';
+@import './animation';
 
-@import './Pages/homepage';
+@import '../scss/Pages/homepage';

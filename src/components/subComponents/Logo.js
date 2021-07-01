@@ -1,8 +1,11 @@
 import React from 'react'
+import VogueLogo from '../../resources/Png/vogueLogo.png'
 
 function Logo() {
     return (
-        <h1 className="logo">vogue.</h1>
+        <div className="logo">
+            <img src={VogueLogo} alt="logo" />
+        </div>
     )
 }
 

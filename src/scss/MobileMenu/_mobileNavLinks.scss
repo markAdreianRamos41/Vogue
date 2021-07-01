@@ -1,0 +1,32 @@
+
+.clip_path_container{
+    display: flex;
+    align-items: center;
+    .nav_links{
+        > ul {
+            flex-direction: column;
+            > li {
+                margin-right: 0px;
+                width: 100%;
+
+                &:not(:last-child){
+                    margin-bottom: 4.375em;
+                }
+
+                &:first-child{
+                    > a{color: $lightGreen;}
+                }
+                  
+                > a {
+                    color: #656565;
+                    text-align: left;
+                    font-size: 4rem;
+                    font-family: $familyOverpass;
+                    font-weight: $overpassLight;
+
+                    
+                }
+            }
+        }
+    }
+}

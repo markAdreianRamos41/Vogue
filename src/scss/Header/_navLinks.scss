@@ -1,0 +1,16 @@
+.nav_links{
+    > ul {
+        > li {
+            &:not(:last-child){
+                margin-right: 5.05050505050vw;
+            }
+
+            > a{
+                font-family: $familyOverpass;
+                font-size: 0.9375rem;
+                font-weight: $overpassExtraBold;
+                color: $fontColor;
+            }
+        }
+    }
+}

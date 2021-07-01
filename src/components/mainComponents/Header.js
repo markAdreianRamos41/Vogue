@@ -1,37 +1,28 @@
 import React, { useState } from 'react'
-import Logo from '../subComponents/Logo'
 import HamburgerButton from '../subComponents/HamburgerButton'
-import PageNumber from '../subComponents/PageNumber'
+import Logo from '../subComponents/Logo'
 import MobileMenu from './MobileMenu'
-
+import NavLinks from '../subComponents/NavLinks/NavLinks'
+import SearchIcon from '../subComponents/SearchIcon'
 
 function Header() {
-    const [isOpen, setIsOpen] = useState(false);
 
-    const preventScroll = () =>  {
-        if(isOpen)  document.body.style.overflow = "hidden"
-        
-        else document.body.style = ""
+    const [isMenuOpen, setIsMenuOpen] = useState(false)
+
+    const handleHamburgerMenuClicked = () => {
+        isMenuOpen ? setIsMenuOpen(false) : setIsMenuOpen(true)
     }
-    const toggleMenu = () => {
-        isOpen ? setIsOpen(false) : setIsOpen(true)
-        
-    }
-    preventScroll()
-        
 
-
+    console.log(setIsMenuOpen)
 
     return (
         <div className="header">
-            <MobileMenu isOpen={isOpen}/>
-            <HamburgerButton handleClick={toggleMenu} isOpen={isOpen}/>
+           <HamburgerButton handleClicked={handleHamburgerMenuClicked} isMenuOpen={isMenuOpen}/>
+           <MobileMenu isMenuOpen={isMenuOpen}/>
+           <Logo />
+           <NavLinks screen="desktop"/>
+           <SearchIcon />
            
-            <div className="header_left_side_mobile">
-                <Logo />
-                <PageNumber />
-            </div>
-            
         </div>
     )
 }
