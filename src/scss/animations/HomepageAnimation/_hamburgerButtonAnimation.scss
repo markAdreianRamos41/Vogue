@@ -1,0 +1,13 @@
+@keyframes hamburgerButtonAnimation {
+    from {
+        width: 0em;
+    }
+
+    to {
+        width: 2.5em;
+    }
+}
+
+.animateHamburgerButton {
+    animation: hamburgerButtonAnimation 1000ms ease-in-out forwards;
+}

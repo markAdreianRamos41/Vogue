@@ -1,0 +1,15 @@
+@keyframes searchIconSlide {
+    from {
+        opacity: 0;
+        transform: translateX(-100px); 
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0px); 
+    }
+}
+
+.animateSearchIcon {
+    animation: searchIconSlide 1000ms ease-in-out forwards;
+}

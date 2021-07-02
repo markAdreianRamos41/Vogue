@@ -1,0 +1,13 @@
+@keyframes taglineAnimation {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.animateTagline{
+    animation: taglineAnimation 1s 900ms ease-in-out forwards;
+}

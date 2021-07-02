@@ -1,0 +1,18 @@
+@keyframes homepageBackgroundSlide {
+    from {
+        opacity: 0;
+        background-position: 100% 0%;
+    }
+
+    to {
+        @media (min-width: 850px) {
+            opacity: 1;
+            background-position: 80% 80%;
+        }
+       
+    }
+}
+
+.animateHomepageBackground {
+    animation: homepageBackgroundSlide 900ms ease-in-out forwards;
+}

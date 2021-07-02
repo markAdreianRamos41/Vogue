@@ -1,0 +1,19 @@
+@keyframes underLineSlide {
+    from {
+        width: 0px;
+    }
+
+    to {
+        @media (max-width: 849px) {
+            width: 150px;
+        }
+
+        @media (min-width: 850px) {
+            width: 260px;
+        }   
+    }
+}
+
+.animateUnderline{
+    animation: underLineSlide 1000ms ease-in-out forwards;
+}

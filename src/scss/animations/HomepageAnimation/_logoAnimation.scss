@@ -1,0 +1,15 @@
+@keyframes logoSlide {
+    from {
+        opacity: 0;
+        transform: translateX(-100px); 
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0px); 
+    }
+}
+
+.animateLogo {
+    animation: logoSlide 1000ms ease-in-out forwards;
+}
