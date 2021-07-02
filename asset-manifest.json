@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Vogue/static/css/main.7717a970.chunk.css",
+    "main.css": "/Vogue/static/css/main.8fb642c5.chunk.css",
     "main.js": "/Vogue/static/js/main.31ab7c6a.chunk.js",
     "main.js.map": "/Vogue/static/js/main.31ab7c6a.chunk.js.map",
     "runtime-main.js": "/Vogue/static/js/runtime-main.91385e24.js",
@@ -10,14 +10,14 @@
     "static/js/3.cfac2502.chunk.js": "/Vogue/static/js/3.cfac2502.chunk.js",
     "static/js/3.cfac2502.chunk.js.map": "/Vogue/static/js/3.cfac2502.chunk.js.map",
     "index.html": "/Vogue/index.html",
-    "static/css/main.7717a970.chunk.css.map": "/Vogue/static/css/main.7717a970.chunk.css.map",
+    "static/css/main.8fb642c5.chunk.css.map": "/Vogue/static/css/main.8fb642c5.chunk.css.map",
     "static/js/2.5a98ba7b.chunk.js.LICENSE.txt": "/Vogue/static/js/2.5a98ba7b.chunk.js.LICENSE.txt",
     "static/media/index.scss": "/Vogue/static/media/homepageShoes.ac3de25c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.91385e24.js",
     "static/js/2.5a98ba7b.chunk.js",
-    "static/css/main.7717a970.chunk.css",
+    "static/css/main.8fb642c5.chunk.css",
     "static/js/main.31ab7c6a.chunk.js"
   ]
 }
