@@ -5,7 +5,7 @@ const linkList = ["Home", "Pricing", "About", "Contact"]
 
 function NavLinks({screen}) {
     return (
-        <div className={screen === "mobile" ? "nav_links hide-for-desktop" : "nav_links hide-for-mobile"} >
+        <div className={`${screen === "mobile" ? "nav_links hide-for-desktop" : "nav_links hide-for-mobile"}`} >
             <ul>
                 {
                     linkList.map(item => 

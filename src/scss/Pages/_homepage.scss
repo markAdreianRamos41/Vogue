@@ -3,6 +3,7 @@
     overflow: hidden;
 
     .homepage_background{
+       
         position: absolute;
         top: 5.125em;
         left: 0;
@@ -22,9 +23,9 @@
         padding: 1.875em;
         
         .page_number{
-            transform: rotate(90deg);
+            
             position: absolute;
-            top: 50vh;
+            top: calc(50vh - (94.1667px / 2));
             right: 0;
         
             height: 37px;

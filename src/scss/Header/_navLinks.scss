@@ -1,6 +1,25 @@
 .nav_links{
     > ul {
         > li {
+            
+            //ANIMATION
+            &:first-child{
+                animation: desktopNavSlide 250ms ease-in-out forwards;
+            }
+
+            &:nth-child(2){
+                animation: desktopNavSlide 500ms ease-in-out forwards;
+            }
+
+            &:nth-child(3){
+                animation: desktopNavSlide 750ms ease-in-out forwards;
+            }
+
+            &:last-child{
+                animation: desktopNavSlide 1000ms ease-in-out forwards;
+            }
+            //ANIMATION
+
             &:not(:last-child){
                 margin-right: 5.05050505050vw;
             }

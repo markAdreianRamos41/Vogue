@@ -3,6 +3,8 @@
     height: calc(100% - 52px);
     position: relative;
 
+   
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -16,6 +18,7 @@
         height: 2px;
         border-radius: 10px;
         background-color: $fontColor;
+       
 
     }
 }

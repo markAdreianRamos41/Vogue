@@ -5,7 +5,7 @@ import SocialMediaLinks from '../subComponents/SocialMediaLinks'
 function HeroSection() {
     return (
         <div className="hero_section">
-          <div className="tagline_container">
+          <div className="tagline_container animateTagline">
             <h1>
               CHOOSE YOUR OWN PATH
             </h1>
@@ -13,7 +13,7 @@ function HeroSection() {
           </div>
 
           <SocialMediaLinks />
-          <div className="underline"></div>
+          <div className="underline animateUnderline"></div>
         
         </div>
     )

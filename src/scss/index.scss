@@ -1,6 +1,9 @@
 @import './mixin';
 @import './variables';
 @import './global';
-@import './animation';
+
 
 @import '../scss/Pages/homepage';
+
+
+@import './animations/animation';

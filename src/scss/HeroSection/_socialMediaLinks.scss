@@ -4,6 +4,17 @@
         > div{
             cursor: pointer;
          
+            //ANIMATION
+            &:last-child{
+                animation: socialMediaLinksSlide 1000ms ease-in-out;
+            }
+            &:nth-child(2){
+                animation: socialMediaLinksSlide 800ms ease-in-out;
+            }
+            &:first-child{
+                animation: socialMediaLinksSlide 600ms ease-in-out;
+            }
+            //ANIMATION
 
             &:not(:last-child){
                 margin-bottom: 20px;
@@ -22,8 +33,7 @@
                     width: 15px;
                     height: 15px;
                 }  
-            }
-             
+            }        
         }
     }
 }
