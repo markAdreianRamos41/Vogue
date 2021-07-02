@@ -9,7 +9,12 @@ function Homepage() {
             <div className="homepage_landing_page">
                 <Header />
                 <HeroSection />
+                <div className="page_number hide-for-mobile">
+                    <h1>01<span>/08</span></h1>
+                </div>  
             </div>   
+            
+            
         </div>
     )
 }
