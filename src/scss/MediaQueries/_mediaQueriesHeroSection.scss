@@ -11,9 +11,37 @@
             margin-left: 7.52525252525%;
             width: 39rem;
             > h1 {
-                font-size: 4rem;
+                font-size: 4.84848484848vw;
                 letter-spacing: -3%;
             }
+        }
+    }
+}
+
+@media (min-width: 534px) and (max-width: 599px){
+    .tagline_container{
+        > h1{
+            width: 350px;
+        }
+    }
+}
+
+
+@media (min-width: 600px) and (max-width: 850px){
+    .tagline_container{
+        > h1{
+            font-size: 3rem;
+            width: 400px;
+        }
+    }
+}
+
+
+@media (min-width: 851px) and (max-width: 1320px) {
+    .tagline_container{
+        > h1{
+            font-size: 3.5rem !important;
+            width: 450px;
         }
     }
 }
