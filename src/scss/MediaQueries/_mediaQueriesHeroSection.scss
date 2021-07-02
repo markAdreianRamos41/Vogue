@@ -1,0 +1,19 @@
+@media (min-width: 850px) {
+    .homepage_container{
+        .homepage_background {
+            background: url('../../resources/Png/homepageShoes.png') no-repeat;
+            background-size: 55%;
+            background-position: 80.7272727273% 80.4583333333%;
+        }
+    }
+    .hero_section{
+        .tagline_container{
+            margin-left: 7.52525252525%;
+            width: 39rem;
+            > h1 {
+                font-size: 4rem;
+                letter-spacing: -3%;
+            }
+        }
+    }
+}

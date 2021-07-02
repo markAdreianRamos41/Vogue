@@ -11,7 +11,7 @@
         height: calc(100vh - 5.125em);
         background: url('../../resources/Png/homepageShoes.png') no-repeat;
         background-size: 200%;
-        background-position: 0% 100.8389767854502%;
+        background-position: -2% 95%;
     }
 
     .homepage_landing_page{
@@ -31,3 +31,4 @@
 @import '../HeroSection/heroSection';
 @import '../MobileMenu/mobileMenu';
 @import '../MediaQueries/mediaQueriesHeader';
+@import '../MediaQueries/mediaQueriesHeroSection';

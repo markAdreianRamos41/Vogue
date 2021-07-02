@@ -7,7 +7,7 @@ function HeroSection() {
         <div className="hero_section">
           <div className="tagline_container">
             <h1>
-              CHOOSE YOUR OWN PATH.
+              CHOOSE YOUR OWN PATH
             </h1>
             <Button buttonName="See Products" destination="/"/>
           </div>
